@@ -35,7 +35,7 @@ export default function Home({ initialPosts, total }) {
         </Head>
 
       <Section>
-        <Cover title="Healthy <br />blog" />
+        <Cover title=" <br />blog" />
         <SocialNetworks />
       </Section>
 

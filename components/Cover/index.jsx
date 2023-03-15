@@ -10,7 +10,7 @@ const Cover = ({
     <div className={cl(className, styles.cover)}>
         <h1
           className={styles.title}
-          dangerouslySetInnerHTML={{ __html: 'Healty<br />blog' }}
+          dangerouslySetInnerHTML={{ __html: 'Healthy<br />blog' }}
         />
     </div>
     )

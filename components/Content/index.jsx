@@ -4,7 +4,7 @@ import BlockContent from '@sanity/block-content-to-react'
 
 import styles from './index.module.scss'
 
-import client, { ids } from '../../lib/client'
+import { ids } from '../../lib/client'
 
 const Content = ({
     body,

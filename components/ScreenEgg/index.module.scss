@@ -41,7 +41,12 @@
         &Right,
         &Left {
             transition: none;
-            transform: none
+            transform: none;
+            width: 4cm;
+            height: 13mm;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         ul {

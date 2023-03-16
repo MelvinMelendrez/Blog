@@ -31,7 +31,7 @@ export default function Home({ initialPosts, total }) {
       marginBottom: "1rem" 
       }}>
         <Head>
-        <title>healthy blog</title>
+        <title>Healthy blog</title>
         </Head>
 
       <Section>

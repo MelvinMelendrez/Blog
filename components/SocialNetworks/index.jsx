@@ -16,11 +16,11 @@ const socialNetworks = [
         href: 'https://github.com/MelvinMelendrez',
         icon: AiFillGithub,
     },
-    {
-        id: 2,
-        href: 'https://www.instagram.com/melvinmelendrez/',
-        icon: AiFillInstagram,
-    },
+    // {
+    //     id: 2,
+    //     href: 'https://www.instagram.com/melvinmelendrez/',
+    //     icon: AiFillInstagram,
+    // },
 
 ];
 
@@ -28,31 +28,31 @@ const socialNetworks = [
 const SocialNetworks = ({
     className
 }) => {
-  return (
-    <ScreenEgg>
-        <ul className={cl(className, styles.list)}>
-            { socialNetworks.map( (socialNetworks) => (
-                <li
-                key={socialNetworks.id}
-                className={styles.listItem}   
-                >
-                <a href={socialNetworks.href}
-                    target="_blank"
-                    className={styles.listLink}
-                >
-                    {React.createElement(socialNetworks.icon, 
-                        {
-                            color: 'black',
-                            size: 50,
-                            
-                        })}
+    return (
+        <ScreenEgg>
+            <ul className={cl(className, styles.list)}>
+                {socialNetworks.map((socialNetworks) => (
+                    <li
+                        key={socialNetworks.id}
+                        className={styles.listItem}
+                    >
+                        <a href={socialNetworks.href}
+                            target="_blank"
+                            className={styles.listLink}
+                        >
+                            {React.createElement(socialNetworks.icon,
+                                {
+                                    color: 'black',
+                                    size: 50,
 
-                </a>
-                </li> 
-            
-            ) ) }
-        </ul>
-    </ScreenEgg>
+                                })}
+
+                        </a>
+                    </li>
+
+                ))}
+            </ul>
+        </ScreenEgg>
     )
 }
 
